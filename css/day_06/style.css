@@ -1,0 +1,105 @@
+a {
+text-decoration: none;
+font-size: 18px;
+color: black;
+padding: 10px;
+}
+a:hover { 
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+input:focus {
+    background-color: grey;   
+}
+
+form div:first-child {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+form div:nth-child(2) {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+form div:last-child {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+button[type="submit"]:disabled { 
+    border: 1px solid red;
+}
+p::first-line {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content:" ";
+    list-style: none;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border: radius 3px 0px 3px 0px ;
+}
+
+input[type="email"]{
+    font-size: 20px;
+    padding: 5px;
+    color: red;
+
+}
+
+input[type="email"]::placeholder {
+ 
+    color: yellowgreen;
+    
+
+}
+
+::selection {
+    background-color: yellow;
+    color: red;
+}
+
+.blue-title {
+    color: blue;
+}
+
+h2.blue-title{
+    color: brown;
+}
+
+p.intro-text {
+font-size: 20px;
+font-weight: 50px;
+}
+
+p.reset::first-letter {
+    font-size: 16px;
+}
+p.reset::first-line {
+    font-size: 16px;
+}
